@@ -20,7 +20,7 @@ from telegram.ext import (
 # =========================
 # CONFIG
 # =========================
-BOT_TOKEN = os.getenv("8804661471:AAEI4iOXcD26tOTtwmni6TYNYrPLgELlcrE", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 DB_PATH = os.getenv("DB_PATH", "payments.db")
 PORT = int(os.getenv("PORT", "8080"))
 
